@@ -1,0 +1,91 @@
+2021-10-13 07:49:05 SimCov version SimCov version 0.1.1- built on 20211012_213943
+2021-10-13 07:49:05 _________________________
+2021-10-13 07:49:05 Compiler definitions:
+2021-10-13 07:49:05   _XOPEN_SOURCE=700
+2021-10-13 07:49:05   CONFIG_USE_COLORS
+2021-10-13 07:49:05   USE_BYTELL
+2021-10-13 07:49:05   MAX_VIRIONS=125000
+2021-10-13 07:49:05   MIN_VIRIONS=1e-10
+2021-10-13 07:49:05   BLOCK_PARTITION
+2021-10-13 07:49:05   MIN_BLOCKS_PER_PROC=1
+2021-10-13 07:49:05   AVERAGE_SUBSAMPLE
+2021-10-13 07:49:05 _________________________
+2021-10-13 07:49:05 Options:
+2021-10-13 07:49:05   dim =                         15000 15000 1
+2021-10-13 07:49:05   whole-lung-dim =              [48000,40000,20000]
+2021-10-13 07:49:05   timesteps =                   7200
+2021-10-13 07:49:05   infection-coords =            49,49,0,0 10,10,0,10
+2021-10-13 07:49:05   initial-infection =           1000
+2021-10-13 07:49:05   incubation-period =           100
+2021-10-13 07:49:05   apoptosis-period =            30
+2021-10-13 07:49:05   expressing-period =           100
+2021-10-13 07:49:05   infectivity =                 0.001
+2021-10-13 07:49:05   virion-production =           100
+2021-10-13 07:49:05   virion-clearance =            0.002
+2021-10-13 07:49:05   virion-diffusion =            0.5
+2021-10-13 07:49:05   chemokine-production =        0.5
+2021-10-13 07:49:05   chemokine-decay =             0.01
+2021-10-13 07:49:05   chemokine-diffusion =         0.2
+2021-10-13 07:49:05   min-chemokine =               0.001
+2021-10-13 07:49:05   antibody-factor =             1
+2021-10-13 07:49:05   antibody-period =             5760
+2021-10-13 07:49:05   tcell-generation-rate =       1
+2021-10-13 07:49:05   tcell-initial-delay =         5000
+2021-10-13 07:49:05   tcell-vascular-period =       600
+2021-10-13 07:49:05   tcell-tissue-period =         60
+2021-10-13 07:49:05   tcell-binding-period =        5
+2021-10-13 07:49:05   max-binding-prob =            1
+2021-10-13 07:49:05   tcells-follow-gradient =      false
+2021-10-13 07:49:05   seed =                        29
+2021-10-13 07:49:05   sample-period =               60
+2021-10-13 07:49:05   sample-resolution =           1
+2021-10-13 07:49:05   max-block-dim =               10
+2021-10-13 07:49:05   output =                      small-test-2
+2021-10-13 07:49:05 _________________________
+2021-10-13 07:49:05 Starting run with 16 processes on 1 node at 10/13/21 07:49:05
+2021-10-13 07:49:05 Pinned processes, with process 0 (pid 574) pinned to core 0
+2021-10-13 07:49:05 Using block partitioning
+2021-10-13 07:49:05 Initial free memory across all nodes: 45.94GB
+2021-10-13 07:49:05 Starting with 45.94GB free on node 0
+2021-10-13 07:49:05 Dividing 225000000 grid points into 3515625 squares of size 64 (8^2), with 219727 per process
+2021-10-13 07:49:05 Total initial memory required per process is at least 1.10GB with each grid point requiring on average 84 bytes
+2021-10-13 07:50:00  --- Elapsed time for tissue.cpp:Tissue:  (exiting barrier) 2021-10-13 07:50:00 ...
+2021-10-13 07:50:00           ... (min/my/avg/max, bal) (54.04/54.06/54.05/54.06 s, 1.00) barrier(0.00 s) --- 
+2021-10-13 07:50:00 Memory used on node 0 after initialization is  21.83GB
+2021-10-13 07:50:00           ... (min/my/avg/max, bal) No-Time barrier(0.00 s) --- 
+2021-10-13 07:50:00 Fraction of circulating T cells extravasating is 5.85938e-06
+2021-10-13 07:50:00 # datetime                    step    incb       expr       apop       dead       tvas       ttis       chem       virs       chempts    %infct     <%active  lbln>
+2021-10-13 07:50:00 Time step 0: SUCCESSFUL initial infection at (49, 49, 0) after 0 tries
+2021-10-13 07:50:00 [10/13/21 07:50:00    0.01s]: 0       1          0          0          0          0          0          0.00e+00   0.00e+00   1.00e+00   0.00       < 0.000 0.062 >
+2021-10-13 07:52:29 Number of samples written 225000000
+2021-10-13 07:55:10 Number of samples written 225000000
+2021-10-13 07:57:50 Number of samples written 225000000
+2021-10-13 07:57:58 [0] <main.cpp:700> WARNING: Hit boundary at (7, 0, 0) 7 INCUBATING 96 94 24 virions 1.60457 chemokine 0
+2021-10-13 07:57:58 [10/13/21 07:57:58  478.68s]: 144     336        57         0          0          0          0          5.21e-07   9.79e+04   5.62e+02   0.00       < 0.003 0.827 >
+2021-10-13 08:00:30 Number of samples written 225000000
+2021-10-13 08:03:08 Number of samples written 225000000
+2021-10-13 08:03:16 [10/13/21 08:03:16  318.03s]: 288     1554       852        0          117        0          0          5.54e-06   3.77e+06   2.64e+03   0.00       < 0.005 0.900 >
+2021-10-13 08:05:49 Number of samples written 225000000
+2021-10-13 08:08:26 Number of samples written 225000000
+2021-10-13 08:11:04 Number of samples written 225000000
+2021-10-13 08:11:13 [10/13/21 08:11:13  476.49s]: 432     2113       1717       0          1622       0          0          1.49e-05   2.03e+07   5.62e+03   0.00       < 0.006 0.938 >
+2021-10-13 08:13:42 Number of samples written 225000000
+2021-10-13 08:16:23 Number of samples written 225000000
+2021-10-13 08:16:31 [10/13/21 08:16:31  318.28s]: 576     2012       2016       0          4269       0          0          2.02e-05   3.98e+07   8.41e+03   0.00       < 0.008 0.956 >
+2021-10-13 08:19:02 Number of samples written 225000000
+2021-10-13 08:21:40 Number of samples written 225000000
+2021-10-13 08:21:48 [10/13/21 08:21:48  317.45s]: 720     2032       2064       0          7155       0          0          2.16e-05   5.46e+07   1.14e+04   0.01       < 0.009 0.962 >
+2021-10-13 08:24:19 Number of samples written 225000000
+2021-10-13 08:26:57 Number of samples written 225000000
+2021-10-13 08:29:36 Number of samples written 225000000
+2021-10-13 08:29:45 [10/13/21 08:29:45  476.38s]: 864     2083       2019       0          10088      0          0          2.19e-05   6.61e+07   1.44e+04   0.01       < 0.011 0.954 >
+2021-10-13 08:32:14 Number of samples written 225000000
+2021-10-13 08:34:55 Number of samples written 225000000
+2021-10-13 08:35:04 [10/13/21 08:35:04  319.47s]: 1008    2231       2176       0          12995      0          0          2.27e-05   7.49e+07   1.76e+04   0.01       < 0.013 0.960 >
+2021-10-13 08:37:36 Number of samples written 225000000
+2021-10-13 08:40:16 Number of samples written 225000000
+2021-10-13 08:42:55 Number of samples written 225000000
+2021-10-13 08:43:03 [10/13/21 08:43:03  478.98s]: 1152    2529       2308       0          16159      0          0          2.44e-05   8.38e+07   2.12e+04   0.01       < 0.015 0.967 >
+2021-10-13 08:45:35 Number of samples written 225000000
+2021-10-13 08:48:12 Number of samples written 225000000
+2021-10-13 08:48:21 [10/13/21 08:48:21  317.80s]: 1296    2617       2593       0          19565      0          0          2.67e-05   9.36e+07   2.49e+04   0.01       < 0.017 0.974 >
