@@ -1,13 +1,17 @@
+import matplotlib
+matplotlib.use('Agg')
 import numpy as np
-import matplotlib as plt 
+import matplotlib.pyplot as plt 
 
-with open("simcov.stats") as fptr: 
+filename = input("filename?\n")
+with open(filename) as fptr: 
     lines = [x.rstrip() for x in fptr.readlines()]
 
 rows = [x.split() for x in lines[1:]]
 column_names = lines[0][1:] 
 
-time_increments = [int(x[0]) for x in rows]
+times = [int(x[0]) for x in rows]
+
 
 incubating_cells = [int(x[1]) for x in rows]
 
@@ -17,6 +21,11 @@ apoptosis_cells = [int(x[3]) for x in rows]
 
 dead_cells = [int(x[4]) for x in rows]
 
- 
-
- 
+plt.figure(figsize=(9,5))
+plt.plot(times, incubating_cells)
+plt.xlim(0,times[-1])
+plt.ylabel("Number of Incubating Cells")
+plt.xticks(np.arange(len(hours)), tuple(hours)) 
+plt.xlabel("Timesteps After Infection")
+plt.title("Incubating Cells") 
+plt.savefig("incubatingcells.png")
