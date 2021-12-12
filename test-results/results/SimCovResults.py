@@ -18,7 +18,7 @@ for i in range(0,len(chia_vax)):
 print(distances) 
 
 with open('naive.stats') as fpt:
-    lines = [x.rstrip() for x in fprt.readlines()]
+    lines = [x.rstrip() for x in fpt.readlines()]
 
 rows_naive = [x.split() for x in lines[1:]]
 naive_virions = [float(x[8]) for x in rows_naive]
