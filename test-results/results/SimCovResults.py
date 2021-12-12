@@ -3,6 +3,14 @@ matplotlib.use('Agg')
 import numpy as np
 import matplotlib.pyplot as plt 
 
+with open(naive.stats) as fpt:
+    lines = [x.rstrip() for x in fprt.readlines()]
+
+rows_naive = [x.split() for x in lines[1:]]
+naive_virions = [float(x[8]) for x in rows_naive]
+max_load_naive = max(naive_virions) 
+naive_max_time = naive_virions.index(max_load_naive) 
+
 filename = input("filename?\n")
 with open(filename) as fptr: 
     lines = [x.rstrip() for x in fptr.readlines()]
@@ -29,6 +37,10 @@ virions = [float(x[8]) for x in rows]
 max_viral_load = max(virions) 
 peak_time = virions.index(max_viral_load)
 
+if abs(naive_max_time - peak_time) < 480:
+    print("Viral peak loads within an 8-hour window of each other.")
+else: 
+    print("Peak viral loads not within 8-hour window")
 
 plt.figure(figsize=(9,5))
 plt.plot(times, incubating_cells)
