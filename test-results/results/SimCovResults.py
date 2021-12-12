@@ -22,7 +22,7 @@ times = [int(x[0])/60 for x in rows]
 ticks = []
 
 for element in times: 
-    if element % 8 == 0:
+    if element % 24 == 0:
         ticks.append(element)
 
 incubating_cells = [int(x[1]) for x in rows]
@@ -43,10 +43,12 @@ else:
     print("viral loads incomparable.")
 
 plt.figure(figsize=(9,5))
-plt.plot(times, incubating_cells)
+plt.plot(times, virions, color='green', label='Vaccinated Patient')
+plt.plot(times, naive_virions, color='red', label='Naive Patient')
 plt.xlim(0,times[-1])
-plt.ylabel("Number of Incubating Cells")
+plt.ylabel("Virions")
 plt.xticks(ticks) 
-plt.xlabel("Hours After Infection")
-plt.title("Incubating Cells") 
-plt.savefig("incubatingcells.png")
+plt.xlabel("Days After Infection")
+plt.legend(fontsize=16)
+plt.title("Virions Over Time") 
+plt.savefig("virions.png")
