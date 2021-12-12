@@ -25,6 +25,11 @@ apoptosis_cells = [int(x[3]) for x in rows]
 
 dead_cells = [int(x[4]) for x in rows]
 
+virions = [float(x[8]) for x in rows]
+max_viral_load = max(virions) 
+peak_time = virions.index(max_viral_load)
+
+
 plt.figure(figsize=(9,5))
 plt.plot(times, incubating_cells)
 plt.xlim(0,times[-1])
