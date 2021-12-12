@@ -18,11 +18,11 @@ with open(filename) as fptr:
 rows = [x.split() for x in lines[1:]]
 column_names = lines[0][1:] 
 
-times = [int(x[0])/60 for x in rows]
+times = [int(x[0]) for x in rows]
 ticks = []
 
 for element in times: 
-    if element % 24 == 0:
+    if element % 1440 == 0:
         ticks.append(element)
 
 incubating_cells = [int(x[1]) for x in rows]
