@@ -17,7 +17,7 @@ for i in range(0,len(chia_vax)):
     distances.append(abs(chia_unvax[i]-chia_vax[i]))
 print(distances) 
 
-with open(naive.stats) as fpt:
+with open('naive.stats') as fpt:
     lines = [x.rstrip() for x in fprt.readlines()]
 
 rows_naive = [x.split() for x in lines[1:]]
