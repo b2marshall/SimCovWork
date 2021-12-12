@@ -1,7 +1,21 @@
 import matplotlib
+import pickle 
 matplotlib.use('Agg')
 import numpy as np
 import matplotlib.pyplot as plt 
+
+unvax = open('chia-unvaccinated-data','rb') 
+chia_unvax = pickle.load(unvax)
+unvax.close()
+
+vax = open('chia-vaccinated-data','rb') 
+chia_vax = pickle.load(vax)
+unvax.close()
+
+distances = []
+for i in range(0,len(chia_vax)):
+    distances.append(abs(chia_unvaxx[i]-chia_vaxx[i]))
+print(distances) 
 
 with open(naive.stats) as fpt:
     lines = [x.rstrip() for x in fprt.readlines()]
