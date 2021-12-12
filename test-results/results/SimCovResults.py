@@ -9,7 +9,7 @@ with open(naive.stats) as fpt:
 rows_naive = [x.split() for x in lines[1:]]
 naive_virions = [float(x[8]) for x in rows_naive]
 max_load_naive = max(naive_virions) 
-naive_max_time = naive_virions.index(max_load_naive) 
+
 
 filename = input("filename?\n")
 with open(filename) as fptr: 
@@ -37,10 +37,10 @@ virions = [float(x[8]) for x in rows]
 max_viral_load = max(virions) 
 peak_time = virions.index(max_viral_load)
 
-if abs(naive_max_time - peak_time) < 480:
-    print("Viral peak loads within an 8-hour window of each other.")
+if  (max_viral_load/max_load_naive) < .8 and (max_viral_load/max_load_naive) > .6 and peak_time < 4800 and peak_time > 3840:
+    print("Peak happens at roughly the right time and the right amount, eh")
 else: 
-    print("Peak viral loads not within 8-hour window")
+    print("viral loads incomparable.")
 
 plt.figure(figsize=(9,5))
 plt.plot(times, incubating_cells)
