@@ -38,7 +38,7 @@ labels = []
 for element in times: 
     if element % 1440 == 0:
         ticks.append(element)
-        labels.append(str((element/(24*60))))
+        labels.append(str((int(element/(24*60)))))
         
 incubating_cells = [int(x[1]) for x in rows]
 
