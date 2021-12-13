@@ -54,7 +54,7 @@ peak_time = virions.index(max_viral_load)
 
 
 plt.figure(figsize=(9,5))
-plt.plot(times, virions, color='green', label='Vaccinated Patient')
+plt.plot(times, virions, color='green', label='Prior Immunity Patient')
 plt.plot(times, naive_virions, color='red', label='Naive Patient')
 plt.xlim(0,times[-1])
 plt.ylabel("Virions")
