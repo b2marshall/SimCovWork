@@ -9031,32 +9031,224 @@
         <Element index="1" value="1"/>
         <Element index="2" value="0"/>
         <Element index="3" value="0"/>
-        <Domain name="array_list" id="631.SeriesColor.array_list"/>
+        <Domain name="array_list" id="631.SeriesColor.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="SeriesLabel" id="631.SeriesLabel" number_of_elements="2">
         <Element index="0" value="virs"/>
         <Element index="1" value="virions"/>
-        <Domain name="array_list" id="631.SeriesLabel.array_list"/>
+        <Domain name="array_list" id="631.SeriesLabel.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="SeriesLabelPrefix" id="631.SeriesLabelPrefix" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="SeriesLineStyle" id="631.SeriesLineStyle">
-        <Domain name="array_list" id="631.SeriesLineStyle.array_list"/>
-      </Property>
-      <Property name="SeriesLineThickness" id="631.SeriesLineThickness">
-        <Domain name="array_list" id="631.SeriesLineThickness.array_list"/>
-      </Property>
-      <Property name="SeriesMarkerStyle" id="631.SeriesMarkerStyle">
-        <Domain name="array_list" id="631.SeriesMarkerStyle.array_list"/>
-      </Property>
-      <Property name="SeriesPlotCorner" id="631.SeriesPlotCorner">
-        <Domain name="array_list" id="631.SeriesPlotCorner.array_list"/>
-      </Property>
-      <Property name="SeriesVisibility" id="631.SeriesVisibility" number_of_elements="2">
-        <Element index="0" value="virs"/>
+      <Property name="SeriesLineStyle" id="631.SeriesLineStyle" number_of_elements="22">
+        <Element index="0" value="# time"/>
         <Element index="1" value="1"/>
-        <Domain name="array_list" id="631.SeriesVisibility.array_list"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="1"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="1"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="1"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="1"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="1"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="1"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="1"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="1"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="1"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="1"/>
+        <Domain name="array_list" id="631.SeriesLineStyle.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesLineThickness" id="631.SeriesLineThickness" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="2"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="2"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="2"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="2"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="2"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="2"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="2"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="2"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="2"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="2"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="2"/>
+        <Domain name="array_list" id="631.SeriesLineThickness.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesMarkerStyle" id="631.SeriesMarkerStyle" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="0"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="0"/>
+        <Domain name="array_list" id="631.SeriesMarkerStyle.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesPlotCorner" id="631.SeriesPlotCorner" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="0"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="0"/>
+        <Domain name="array_list" id="631.SeriesPlotCorner.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesVisibility" id="631.SeriesVisibility" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="0"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="1"/>
+        <Domain name="array_list" id="631.SeriesVisibility.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="UseIndexForXAxis" id="631.UseIndexForXAxis" number_of_elements="1">
         <Element index="0" value="1"/>
@@ -9067,8 +9259,20 @@
         <Domain name="bool" id="631.Visibility.bool"/>
       </Property>
       <Property name="XArrayName" id="631.XArrayName" number_of_elements="1">
-        <Element index="0" value=""/>
-        <Domain name="array_list" id="631.XArrayName.array_list"/>
+        <Element index="0" value="# time"/>
+        <Domain name="array_list" id="631.XArrayName.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
     </Proxy>
     <Proxy group="representations" type="XYChartRepresentation" id="922" servers="21">
@@ -9110,7 +9314,19 @@
         <Element index="13" value="0.333"/>
         <Element index="14" value="0.333"/>
         <Element index="15" value="0.0"/>
-        <Domain name="array_list" id="922.SeriesColor.array_list"/>
+        <Domain name="array_list" id="922.SeriesColor.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="SeriesLabel" id="922.SeriesLabel" number_of_elements="8">
         <Element index="0" value="incb"/>
@@ -9121,33 +9337,207 @@
         <Element index="5" value="apoptotic"/>
         <Element index="6" value="dead"/>
         <Element index="7" value="dead"/>
-        <Domain name="array_list" id="922.SeriesLabel.array_list"/>
+        <Domain name="array_list" id="922.SeriesLabel.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="SeriesLabelPrefix" id="922.SeriesLabelPrefix" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="SeriesLineStyle" id="922.SeriesLineStyle">
-        <Domain name="array_list" id="922.SeriesLineStyle.array_list"/>
-      </Property>
-      <Property name="SeriesLineThickness" id="922.SeriesLineThickness">
-        <Domain name="array_list" id="922.SeriesLineThickness.array_list"/>
-      </Property>
-      <Property name="SeriesMarkerStyle" id="922.SeriesMarkerStyle">
-        <Domain name="array_list" id="922.SeriesMarkerStyle.array_list"/>
-      </Property>
-      <Property name="SeriesPlotCorner" id="922.SeriesPlotCorner">
-        <Domain name="array_list" id="922.SeriesPlotCorner.array_list"/>
-      </Property>
-      <Property name="SeriesVisibility" id="922.SeriesVisibility" number_of_elements="8">
-        <Element index="0" value="incb"/>
+      <Property name="SeriesLineStyle" id="922.SeriesLineStyle" number_of_elements="22">
+        <Element index="0" value="# time"/>
         <Element index="1" value="1"/>
-        <Element index="2" value="expr"/>
+        <Element index="2" value="%infct"/>
         <Element index="3" value="1"/>
         <Element index="4" value="apop"/>
         <Element index="5" value="1"/>
-        <Element index="6" value="dead"/>
+        <Element index="6" value="chem"/>
         <Element index="7" value="1"/>
-        <Domain name="array_list" id="922.SeriesVisibility.array_list"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="1"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="1"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="1"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="1"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="1"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="1"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="1"/>
+        <Domain name="array_list" id="922.SeriesLineStyle.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesLineThickness" id="922.SeriesLineThickness" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="2"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="2"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="2"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="2"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="2"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="2"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="2"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="2"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="2"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="2"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="2"/>
+        <Domain name="array_list" id="922.SeriesLineThickness.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesMarkerStyle" id="922.SeriesMarkerStyle" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="0"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="0"/>
+        <Domain name="array_list" id="922.SeriesMarkerStyle.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesPlotCorner" id="922.SeriesPlotCorner" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="0"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="0"/>
+        <Domain name="array_list" id="922.SeriesPlotCorner.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesVisibility" id="922.SeriesVisibility" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="chem"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chempts"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="ttis"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="tvas"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="virs"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="1"/>
+        <Element index="16" value="expr"/>
+        <Element index="17" value="1"/>
+        <Element index="18" value="apop"/>
+        <Element index="19" value="1"/>
+        <Element index="20" value="dead"/>
+        <Element index="21" value="1"/>
+        <Domain name="array_list" id="922.SeriesVisibility.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="UseIndexForXAxis" id="922.UseIndexForXAxis" number_of_elements="1">
         <Element index="0" value="1"/>
@@ -9158,8 +9548,20 @@
         <Domain name="bool" id="922.Visibility.bool"/>
       </Property>
       <Property name="XArrayName" id="922.XArrayName" number_of_elements="1">
-        <Element index="0" value=""/>
-        <Domain name="array_list" id="922.XArrayName.array_list"/>
+        <Element index="0" value="# time"/>
+        <Domain name="array_list" id="922.XArrayName.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
     </Proxy>
     <Proxy group="representations" type="XYChartRepresentation" id="1469" servers="21">
@@ -9193,36 +9595,226 @@
         <Element index="5" value="0"/>
         <Element index="6" value="0"/>
         <Element index="7" value="1"/>
-        <Domain name="array_list" id="1469.SeriesColor.array_list"/>
+        <Domain name="array_list" id="1469.SeriesColor.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="SeriesLabel" id="1469.SeriesLabel" number_of_elements="4">
         <Element index="0" value="ttis"/>
         <Element index="1" value="tissue"/>
         <Element index="2" value="tvas"/>
         <Element index="3" value="vasculature"/>
-        <Domain name="array_list" id="1469.SeriesLabel.array_list"/>
+        <Domain name="array_list" id="1469.SeriesLabel.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="SeriesLabelPrefix" id="1469.SeriesLabelPrefix" number_of_elements="1">
         <Element index="0" value=""/>
       </Property>
-      <Property name="SeriesLineStyle" id="1469.SeriesLineStyle">
-        <Domain name="array_list" id="1469.SeriesLineStyle.array_list"/>
-      </Property>
-      <Property name="SeriesLineThickness" id="1469.SeriesLineThickness">
-        <Domain name="array_list" id="1469.SeriesLineThickness.array_list"/>
-      </Property>
-      <Property name="SeriesMarkerStyle" id="1469.SeriesMarkerStyle">
-        <Domain name="array_list" id="1469.SeriesMarkerStyle.array_list"/>
-      </Property>
-      <Property name="SeriesPlotCorner" id="1469.SeriesPlotCorner">
-        <Domain name="array_list" id="1469.SeriesPlotCorner.array_list"/>
-      </Property>
-      <Property name="SeriesVisibility" id="1469.SeriesVisibility" number_of_elements="4">
-        <Element index="0" value="ttis"/>
+      <Property name="SeriesLineStyle" id="1469.SeriesLineStyle" number_of_elements="22">
+        <Element index="0" value="# time"/>
         <Element index="1" value="1"/>
-        <Element index="2" value="tvas"/>
+        <Element index="2" value="%infct"/>
         <Element index="3" value="1"/>
-        <Domain name="array_list" id="1469.SeriesVisibility.array_list"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="1"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="1"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="1"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="1"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="1"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="1"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="1"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="1"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="1"/>
+        <Domain name="array_list" id="1469.SeriesLineStyle.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesLineThickness" id="1469.SeriesLineThickness" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="2"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="2"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="2"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="2"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="2"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="2"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="2"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="2"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="2"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="2"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="2"/>
+        <Domain name="array_list" id="1469.SeriesLineThickness.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesMarkerStyle" id="1469.SeriesMarkerStyle" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="0"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="0"/>
+        <Domain name="array_list" id="1469.SeriesMarkerStyle.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesPlotCorner" id="1469.SeriesPlotCorner" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="ttis"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="tvas"/>
+        <Element index="19" value="0"/>
+        <Element index="20" value="virs"/>
+        <Element index="21" value="0"/>
+        <Domain name="array_list" id="1469.SeriesPlotCorner.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
+      </Property>
+      <Property name="SeriesVisibility" id="1469.SeriesVisibility" number_of_elements="22">
+        <Element index="0" value="# time"/>
+        <Element index="1" value="0"/>
+        <Element index="2" value="%infct"/>
+        <Element index="3" value="0"/>
+        <Element index="4" value="apop"/>
+        <Element index="5" value="0"/>
+        <Element index="6" value="chem"/>
+        <Element index="7" value="0"/>
+        <Element index="8" value="chempts"/>
+        <Element index="9" value="0"/>
+        <Element index="10" value="dead"/>
+        <Element index="11" value="0"/>
+        <Element index="12" value="expr"/>
+        <Element index="13" value="0"/>
+        <Element index="14" value="incb"/>
+        <Element index="15" value="0"/>
+        <Element index="16" value="virs"/>
+        <Element index="17" value="0"/>
+        <Element index="18" value="ttis"/>
+        <Element index="19" value="1"/>
+        <Element index="20" value="tvas"/>
+        <Element index="21" value="1"/>
+        <Domain name="array_list" id="1469.SeriesVisibility.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
       <Property name="UseIndexForXAxis" id="1469.UseIndexForXAxis" number_of_elements="1">
         <Element index="0" value="1"/>
@@ -9233,8 +9825,20 @@
         <Domain name="bool" id="1469.Visibility.bool"/>
       </Property>
       <Property name="XArrayName" id="1469.XArrayName" number_of_elements="1">
-        <Element index="0" value=""/>
-        <Domain name="array_list" id="1469.XArrayName.array_list"/>
+        <Element index="0" value="# time"/>
+        <Domain name="array_list" id="1469.XArrayName.array_list">
+          <String text="# time"/>
+          <String text="%infct"/>
+          <String text="apop"/>
+          <String text="chem"/>
+          <String text="chempts"/>
+          <String text="dead"/>
+          <String text="expr"/>
+          <String text="incb"/>
+          <String text="ttis"/>
+          <String text="tvas"/>
+          <String text="virs"/>
+        </Domain>
       </Property>
     </Proxy>
     <Proxy group="representations" type="ScalarBarWidgetRepresentation" id="606" servers="21">
@@ -10207,11 +10811,11 @@
     </Proxy>
     <Proxy group="sources" type="CSVReader" id="899" servers="1">
       <Property name="FileName" id="899.FileName" number_of_elements="1">
-        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect"/>
+        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect/simcov.stats"/>
         <Domain name="files" id="899.FileName.files"/>
       </Property>
       <Property name="FileNameInfo" id="899.FileNameInfo" number_of_elements="1">
-        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect"/>
+        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect/simcov.stats"/>
       </Property>
       <Property name="TimestepValues" id="899.TimestepValues"/>
       <Property name="AddTabFieldDelimiter" id="899.AddTabFieldDelimiter" number_of_elements="1">
@@ -10260,11 +10864,11 @@
     </Proxy>
     <Proxy group="sources" type="CSVReader" id="1446" servers="1">
       <Property name="FileName" id="1446.FileName" number_of_elements="1">
-        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect"/>
+        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect/simcov.stats"/>
         <Domain name="files" id="1446.FileName.files"/>
       </Property>
       <Property name="FileNameInfo" id="1446.FileNameInfo" number_of_elements="1">
-        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect"/>
+        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect/simcov.stats"/>
       </Property>
       <Property name="TimestepValues" id="1446.TimestepValues"/>
       <Property name="AddTabFieldDelimiter" id="1446.AddTabFieldDelimiter" number_of_elements="1">
@@ -10293,11 +10897,11 @@
     </Proxy>
     <Proxy group="sources" type="CSVReader" id="608" servers="1">
       <Property name="FileName" id="608.FileName" number_of_elements="1">
-        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect"/>
+        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect/simcov.stats"/>
         <Domain name="files" id="608.FileName.files"/>
       </Property>
       <Property name="FileNameInfo" id="608.FileNameInfo" number_of_elements="1">
-        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect"/>
+        <Element index="0" value="/home/parallels/Desktop/SIMCoV/SimCovWork/foci-4-reinfect/simcov.stats"/>
       </Property>
       <Property name="TimestepValues" id="608.TimestepValues"/>
       <Property name="AddTabFieldDelimiter" id="608.AddTabFieldDelimiter" number_of_elements="1">
