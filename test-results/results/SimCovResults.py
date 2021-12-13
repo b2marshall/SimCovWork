@@ -34,11 +34,12 @@ column_names = lines[0][1:]
 
 times = [int(x[0]) for x in rows]
 ticks = []
-
+labels = []
 for element in times: 
     if element % 1440 == 0:
-        ticks.append(element/(24*60))
-
+        ticks.append(element)
+        labels.append(str((element/24*60)))
+        
 incubating_cells = [int(x[1]) for x in rows]
 
 expressing_cells = [int(x[2]) for x in rows]
@@ -51,17 +52,14 @@ virions = [float(x[8]) for x in rows]
 max_viral_load = max(virions) 
 peak_time = virions.index(max_viral_load)
 
-if  (max_viral_load/max_load_naive) < .8 and (max_viral_load/max_load_naive) > .6 and peak_time < 4800 and peak_time > 3840:
-    print("Peak happens at roughly the right time and the right amount, eh")
-else: 
-    print("viral loads incomparable.")
 
 plt.figure(figsize=(9,5))
 plt.plot(times, virions, color='green', label='Vaccinated Patient')
 plt.plot(times, naive_virions, color='red', label='Naive Patient')
 plt.xlim(0,times[-1])
 plt.ylabel("Virions")
-plt.xticks(ticks) 
+plt.xticks(ticks,labels)
+
 plt.xlabel("Days After Infection")
 plt.legend(fontsize=16)
 plt.title("Virions Over Time") 
